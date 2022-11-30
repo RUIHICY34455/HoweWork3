@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-page {
+    background-color: #fff;
+    color: black;
+}
+
+.header {
+    padding: 12px 0;
+    margin: 0 auto 83px auto;
+    font-family: Gilroy-SemiBold;
+    outline: 2px solid green;
+    height: 40px;
+}
+
+.menu-list {
+    display: flex;
+    outline: 2px solid rgb(16, 30, 157);
+    justify-content: right;
+}
+
+.menu-list-intem {
+    list-style: none;
+    outline: 2px solid rgb(135, 12, 43);
+}
+
+.menu-list-intem a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.top-content {
+    padding: 0 0 53px 0;
+    outline: 2px solid rgb(32, 14, 79);
+}
+
+.top-about {
+    width: 100%;
+    max-width: 550px;
+}
+
+.top-about-titlle {
+    margin: 0 0 17px 0;
+    outline: 2px solid rgb(182, 231, 23);
+    position: absolute;
+    width: 522px;
+    height: 222px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.top-about-txt {
+    margin: 0 0 37px 0;
+    position: absolute;
+    width: 466px;
+    height: 48px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.top-about-wrp-btn {}
+
+.top-about-btn {}
+
+.top-logos {}
